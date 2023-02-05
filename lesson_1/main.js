@@ -45,30 +45,38 @@ console.log(bool2);
 // їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто
 // за допомоги конкатенації)
 
-let firstName = 'Dmytro';
-let middleName = 'Leonydovych';
-let lastName = 'Melnychenko';
+// let firstName = 'Dmytro';
+// let middleName = 'Leonydovych';
+// let lastName = 'Melnychenko';
 
 // let person = (firstName + ' ' + middleName + ' ' + lastName);
 // console.log(person);
 
-console.log(`${firstName} ${middleName} ${lastName}`);
+// console.log(`${firstName} ${middleName} ${lastName}`);
 
 // - За допомогою оператора typeof визначити типи наступних
 // змінних та вивести їх в консоль.
 //     let a = 100; let b = '100'; let c = true;
 
-let a = 100;
-console.log(typeof a);
-
-let b = '100';
-console.log(typeof b);
-
-let c = true;
-console.log(typeof c);
+// let a = 100;
+// console.log(typeof a);
+//
+// let b = '100';
+// console.log(typeof b);
+//
+// let c = true;
+// console.log(typeof c);
 
 // Додаткове для тих хто цікавився prompt`oм
 // - За допомогою 3х різних prompt() отримати 3 слова які являються
 // вашими Імям, По-Батькові та роками. та вивести в консоль
+
+let firstName = prompt('enter firstName');
+let middleName = prompt('enter lastName');
+let age = prompt('enter age');
+
+let res = (`${firstName} ${middleName} ${age}`);
+console.log(res);
+
 
 
