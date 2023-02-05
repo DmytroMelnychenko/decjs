@@ -72,8 +72,10 @@ console.log(bool2);
 // вашими Імям, По-Батькові та роками. та вивести в консоль
 
 let firstName = prompt('enter firstName');
-let middleName = prompt('enter lastName');
+let middleName = prompt('enter middleName');
 let age = +prompt('enter age');
+// let age = perseInt(prompt('enter age'));
+// console.log(age);
 
 let res = (`${firstName} ${middleName} ${age}`);
 console.log(res);
