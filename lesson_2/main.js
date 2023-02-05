@@ -245,7 +245,9 @@ let coursesAndDurationArray = [
     {title: 'Frontend', monthDuration: 4}
 ];
 
-
+if (coursesAndDurationArray.monthDuration <= 5 ) {
+    alert('Супер');
+ };
 
 
 
