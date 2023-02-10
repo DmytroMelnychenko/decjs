@@ -153,8 +153,8 @@ let users = [
 // };
 
 // - користувачів які старші за 30 років
-for (const user of users) {
-    if (user.age > 30) {
-        console.log(user);
-    }
-};
+// for (const user of users) {
+//     if (user.age > 30) {
+//         console.log(user);
+//     }
+// };
