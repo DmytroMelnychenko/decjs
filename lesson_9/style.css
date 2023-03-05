@@ -1,0 +1,31 @@
+.main {
+    border: 2px solid red;
+    margin: 10px;
+}
+
+.coral {
+    border: 2px solid blue;
+    margin: 10px;
+}
+
+.text-centr {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+.margin0 {
+    margin: 10px;
+    padding: 0;
+}
+.grow1 {
+   flex-grow: 1;
+}
+.grow5 {
+    flex-grow: 5;
+}
+.list-none {
+    list-style: none;
+}
+
